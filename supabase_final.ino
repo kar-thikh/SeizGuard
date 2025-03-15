@@ -7,10 +7,10 @@
 #include <ArduinoJson.h>
 
 // WiFi Credentials
-#define WIFI_SSID "VITC-EVENT"
-#define WIFI_PASS "Eve@13^25#$"
-#define SUPABASE_URL "https://mlfjrewtfqobploetuoi.supabase.co/rest/v1/seizure"
-#define SUPABASE_KEY "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sZmpyZXd0ZnFvYnBsb2V0dW9pIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDE4NDk5NjEsImV4cCI6MjA1NzQyNTk2MX0.T8tMdWfBAI5a3EaiHyzIeXBQ7ZQWPZgyxqK6oQ1FDug"
+#define WIFI_SSID "WIFISSID"
+#define WIFI_PASS "WIFIPASSWORD"
+#define SUPABASE_URL "supabas_table_url"
+#define SUPABASE_KEY "supabase_private_key"
 
 #define BUZZER_PIN 13 // Connect buzzer to GPIO 13
 
