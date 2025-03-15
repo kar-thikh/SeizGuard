@@ -12,27 +12,22 @@ NeuroSense is an IoT-powered seizure alert system using ESP32, MAX30102 (Heart R
 ESP32 WROOM-32 – Main controller
 MAX30102 – Heart rate & SpO2 sensor
 ADXL345 – Motion sensor
-📌 Installation & Setup
-1️⃣ Clone this repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/YOUR-USERNAME/NeuroSense.git  
-cd NeuroSense  
-2️⃣ Install required Arduino libraries:
+📌 Installation & Setup
+ Install required Arduino libraries:
 
 Adafruit MAX30102 Library
 Adafruit ADXL345 Library
 WiFi and Supabase client libraries
-3️⃣ Flash the code to ESP32 using Arduino IDE
+ Flash the code to ESP32 using Arduino IDE
 
-4️⃣ Set up Supabase for real-time alerts
+ Set up Supabase for real-time alerts
 
 Create a Supabase project
 Add a table for storing sensor data
 Use API keys to connect ESP32
-5️⃣ Deploy the mobile app (Planned)
+
+ Deploy the mobile app (Planned)
 
 Android/iOS app for real-time monitoring
 📊 Future Upgrades
